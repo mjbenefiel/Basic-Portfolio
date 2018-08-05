@@ -6,7 +6,16 @@
     max-width: 960px;
     margin: 0 auto;
     
+    
 }
+
+.intro {
+    line-height: 145%;
+    width: 70%;
+    margin: 0px 15px 15px 0px;
+        
+}
+
 
 /* MAIN NAVI */
 
@@ -14,6 +23,7 @@
     float: right;
     list-style: none;
     margin-top: 55px;
+    padding: 14px 16px;
     
 }
 
@@ -87,12 +97,11 @@
 }
 
 /* HEADER PHOTO */
-.HeaderPhoto {
-    float: left;
-    list-style: none;
-    margin: 100px 100px 50px 100px;
-    max-width: 960px;
-    
+img {
+ float: left;
+
+     
+       
 }
 
 /* BASIC INFORMATION */
@@ -109,8 +118,13 @@ h1 {
 h1.AboutMe {
     float: left;
     list-style: none;
-    margin: 0 auto;
-    color: #4aaaa5 
+    color: #4aaaa5;
+    margin: 100px 100px;
    
     
+}
+
+/* PARAGRAPH TEXT */
+.intro {
+    display: inline-block;
 }
